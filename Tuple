@@ -1,0 +1,13 @@
+tup=(21,42,64,87)
+tup1=(772,74,9,67)
+tup[1]  #slicing
+#tup[2]=21  #dosent work cause immutable
+print(len(tup))
+print(tup)
+
+#allows duplicates
+#operations
+#to do changes indirectly we should convert tuple to list then do changes and again convert list to tuple
+tup.count(42)   #counts the no of occurances
+tup.index(64)   #returns the 1st occuring no index
+len(tup)      #return the length of tuple
