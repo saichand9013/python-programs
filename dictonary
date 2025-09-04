@@ -1,0 +1,29 @@
+dic={1:9,2:'yash',4:'nikhil'}
+print(dic[1])   #prints sai if key absent prints error
+print(dic.get(1))  #another way if key not present prints none
+
+print(dic)
+keys = ['sai','yash','nikhil']
+values = ['it','cse','eee',]
+data= dict(zip(keys,values))   #to merge two list into dict
+
+data['mani']='cse'   #add element
+
+del data['mani']     #del element
+print(data)
+
+info = {'name':'sai','age':19,'eligible':'True'}
+
+print(info.keys())     #to print all keys
+print(info.values())    #to print all the values
+print(info.items())     #to print the pair
+
+ep1={23:32,45:54,67:76}
+ep2={43:45,}
+#methods
+ep1.update(ep2)    # ep2 data adds to the ep1
+ep1.clear()       #removes all the items
+ep1.pop(23)      #removes item
+ep1.popitem()   #deletes the last item
+del ep1        #completly deletes dict
+del ep1[23]   #delete a element
