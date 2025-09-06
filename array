@@ -1,0 +1,9 @@
+from array import *      #importing the array
+
+vals = array('I',[2,5,2,87,45,24])     #declaring the array
+
+print(vals)
+print(vals.buffer_info())    #prints address and size of the array
+print(vals.typecode)       #prints the type of data
+print(type(vals))        #prints datatype array
+vals.reverse()          #reverse the values
