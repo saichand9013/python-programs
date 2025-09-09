@@ -1,5 +1,29 @@
-from numpy import *
+#Create a NumPy ndarray Object
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+print(type(arr))
 
+#1-D array
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+
+#2-D array
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+print(arr)
+
+#3-D arrays
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+print(arr)
+
+#to know number of dimensions
+a = np.array([1, 2, 3, 4, 5])
+b = np.array([[1, 2, 3], [4, 5, 6]])
+print(a.ndim)
+print(b.ndim)
+
+
+from numpy import *
 
 #ways of creating array in numpy
 arr = array([1,2,3,4,5.0],int)
