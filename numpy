@@ -14,3 +14,10 @@ arr2=arange(1,15,2)   #here it is difference between nos
 print(arr2)
 
 arr3=logspace(1,40)
+print(arr)
+
+arr4=zeros(5)   #creats array with zeros of length 5
+print(arr4)
+
+arr5=ones(4)    #prints array of ones of length 4
+print(arr5)
